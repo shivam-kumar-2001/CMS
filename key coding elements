@@ -1,0 +1,19 @@
+			                                  CMS(College Management System )
+CMS is a command-driven application that helps to maintain student and faculty records. It makes use of unique IDs and password to restrict the access 
+and usage of different areas of the portal to its correct target audience. The faculty portal allows the faculty user to update faculty profile, including
+allocation of subjects to be taught. Likewise, the student portal helps to maintain student profile information, including allocation and de-allocation of 
+subjects to the students. The admin portal is used for administrative purposes. It helps to make the user entry for the first time.
+
+Key Coding Element : 
+
+Admin : It is used to maintain the faculty and student profiles. It provides a unique login to both profile users, and allows them 
+        to update their records further.
+getstdata() : It is used to make the student data entry from the ADMIN portal.
+login() : It authenticates the login of both profile users (students and faculties).
+recovery() : It helps both profile users to recover the password.
+addstsub() : It allows the student to add a new subject in his profile.
+delstsub() : It allows the student to delete a subject from his profile.
+modstprofile() : It allows the student to modify the personal profile details.
+getfadata() : It allows the Admin to make a new entry of the faculty user .
+stdisplay() : It displays all the student records to the admin.
+fadisplay() : It displays all the faculty records to the admin.
